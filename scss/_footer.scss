@@ -1,0 +1,26 @@
+.footer-logo{
+    height: 100px;
+    width: 100px;
+    float: left;
+    &:hover{
+      transform: scale(1.1);
+    }
+  }
+  
+  .footer-parrafo{
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+    margin-top: 30px;
+  }
+  
+  .footer-social{
+    float: right;
+    padding: 5px;
+    height: 50px;
+    width: 50px;
+    margin-top: 30px;
+    &:hover{
+      transform: scale(1.1);
+    }
+  }

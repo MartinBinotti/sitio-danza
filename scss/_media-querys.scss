@@ -1,0 +1,210 @@
+@media (max-width: 978px){
+  .contenido-principal-contacto {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .recuadro-contacto{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .recuadro-contacto img{
+    margin: 20px;
+  }
+
+  .recuadro-contacto .recuadro-texto{
+    text-align: center;
+  }
+
+  form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  #enviar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+}
+
+/* Media Queries para tablet */
+@media (max-width: 768px) {
+
+  .logo {
+      height: 80px;
+      width: 80px;
+      margin-right: 20px;
+    }
+  
+    .titulo-principal {
+      font-size: 40px;
+    }
+  
+    h2 {
+      font-size: 30px;
+    }
+  
+    .subtitulo-tamanio {
+      font-size: 36px;
+    }
+  
+    .card {
+      margin: 10px;
+    }
+  
+    .card .card-title {
+      font-size: 18px;
+    }
+  
+    .card .card-text {
+      font-size: 14px;
+    }
+  
+    .card-body .btn {
+      padding: 6px 12px;
+    }
+    .navegador .menu{
+      display: block;
+      color: white;
+      margin: 0px 0px 30px 20px;
+      order: -1;
+      font-size: 30px;
+    }
+  
+    .navegador .menu:hover + ul{
+      left: 0px; 
+    }
+  
+    .navegador ul:hover{
+      left: 0px; 
+    }
+  
+    .navegador ul{
+      position: fixed;
+      background-color: white;
+      top: 0;
+      left: -1000px;
+      height: 100vh;
+      width: 80vw;
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+      padding-top: 100px;
+      transition: 0.5s;
+      li a{
+        color: #000000;
+      }
+    }
+  
+    .recuadro-contacto {
+      flex-direction: column;
+      align-items: center;
+      width: 80%;
+    }
+  
+    .recuadro-contacto .img-contacto {
+      margin-bottom: 10px;
+      width: 300px;
+      margin-top: 80px;
+    }
+  
+    .recuadro-contacto .recuadro-body {
+      text-align: center;
+      margin-bottom: 100px;
+    }
+  
+  }
+  
+  /* Media Queries para celular */
+  @media (max-width: 480px) {
+    .logo {
+      height: 60px;
+      width: 60px;
+      margin-right: 15px;
+    }
+  
+    h1 {
+      font-size: 30px;
+    }
+  
+    h2 {
+      font-size: 24px;
+    }
+  
+    .subtitulo-tamanio {
+      font-size: 28px;
+    }
+  
+    .card .card-title {
+      font-size: 16px;
+    }
+  
+    .card .card-text {
+      font-size: 12px;
+    }
+  
+    .card .card-body {
+      padding: 10px;
+    }
+  
+    .card-body .btn {
+      padding: 4px 8px;
+      font-size: 12px;
+    }
+    .navegador .menu{
+      display: block;
+      color: white;
+      margin: 10px;
+      order: -1;
+      font-size: 30px;
+    }
+  
+    .navegador .menu:hover + ul{
+      left: 0px; 
+    }
+  
+    .navegador ul:hover{
+      left: 0px; 
+    }
+  
+    .navegador ul{
+      position: fixed;
+      background-color: white;
+      top: 0;
+      left: -1000px;
+      height: 100vh;
+      width: 80vw;
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+      padding-top: 100px;
+      transition: 0.5s;
+      li a{
+        color: #000000;
+      }
+    }
+  
+    .recuadro-contacto {
+      flex-direction: column;
+      align-items: center;
+      width: 80%;
+    }
+  
+    .recuadro-contacto .img-contacto {
+      margin-bottom: 10px;
+      width: 300px;
+      margin-top: 80px;
+    }
+  
+    form input, textarea {
+      max-width: 90%;
+    }
+  }
+  

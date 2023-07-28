@@ -1,0 +1,44 @@
+%cardStructure{
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+%btnCards{
+    background-color: rgb(168, 62, 168);
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: auto;
+    &:hover{
+      background-color: #e9368f;
+    } 
+}
+
+%cardBody{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+%cardTitle{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #007bff;
+    text-align: center;
+}
+
+%cardText{
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+    text-align: justify;
+}

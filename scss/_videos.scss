@@ -1,0 +1,27 @@
+.titulo-video{
+    font-size: 36px;
+    font-weight: bold;
+    color: #e9368f;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .video-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    video{
+      width: 80%;
+      height: 70%;
+    }
+  }
+  
+  .video-container #texto-video{
+    font-size: 24px;
+    color: #6b6467;
+    text-align:justify;
+    font-weight:lighter;
+    margin: 0px 50px 0px 50px;
+  }
